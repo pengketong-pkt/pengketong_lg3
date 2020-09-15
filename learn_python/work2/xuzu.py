@@ -1,5 +1,5 @@
 from learn_python.work2.tonglao import Tonglao
-
+#虚竹
 class xuzu(Tonglao):
     # def __init__(self, hp, attack):
     # super().__init__(self, hp, attack)
