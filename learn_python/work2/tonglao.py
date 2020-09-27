@@ -6,14 +6,14 @@ fight_zms方法（天山折梅手），调用天山折梅手方法会将自己�
 加入模块化改造
 """
 
-
+#定义天山童姥类
 class Tonglao:
     def __init__(self, hp, attack):
         self.hp = hp
         self.attack = attack
 
     def see_people(self, name):
-        if name == "WYZ":
+        if name == "WYZ" or name == "无崖子":
             print("师弟！！！！")
         elif name == "李秋水":
             print("呸，贱人")
@@ -38,5 +38,5 @@ class Tonglao:
 
 if __name__ == '__main__':
     tonglao = Tonglao(10000, 600)
-    tonglao.see_people("WYZ")
-    tonglao.fight_zms(30000, 600)
+    tonglao.see_people("丁春秋")
+    tonglao.fight_zms(30000, 1300)

@@ -1,6 +1,5 @@
 from learn_python.work2.tonglao import Tonglao
-#虚竹
-#虚竹虚竹
+#虚竹类继承童姥类
 class xuzu(Tonglao):
     # def __init__(self, hp, attack):
     # super().__init__(self, hp, attack)
